@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: white;
+    text-align: center;
+    display: block;
+}
+.login .login_header .loginheader_img img{
+    color: white;
+    width: 400px;
+    display: block;
+    margin: auto;
+
+}
+
+.login__body{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+.login_body_entrar{
+    border-width: medium;
+    border-right: 2.5rem;
+    
+}
+
+@media screen and (min-width:768px) {
+    .chamada__texto{
+        max-width: 600px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    .chamada {
+       
+
+        padding-top: 8.25rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
